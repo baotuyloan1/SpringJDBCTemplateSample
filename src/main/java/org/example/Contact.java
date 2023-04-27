@@ -52,4 +52,15 @@ public class Contact {
     public void setContact_id(int contact_id) {
         this.contact_id = contact_id;
     }
+
+
+    public Contact(String name, String email, String address, String telephone) {
+        this.name = name;
+        this.email = email;
+        this.address = address;
+        this.telephone = telephone;
+    }
+
+    public Contact() {
+    }
 }
